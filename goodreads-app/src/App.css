@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+@media screen and (min-width: 994px){
+  nav .brand-logo {
+  
+    left: 30px;
+  }
+    
+}
+
+
+.card .card-image {
+  width: 100%;
+} 
+
+.card .card-image img {
+  margin: auto;
+  width: auto;
+  height: 250px;
+}
+
+.messages {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: x-large;
+  color: gainsboro;
+  margin: 100px;
+}

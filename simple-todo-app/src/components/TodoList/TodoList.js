@@ -46,6 +46,7 @@ class TodoList extends Component {
                   isChecked={true}
                   onChange={this._onChange}
                   onDelete={this._onDelete}
+                  onUpdate={this._onUpdate}
               />: '');
           })} 
         </div>
