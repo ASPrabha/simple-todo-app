@@ -37,7 +37,7 @@ class App extends Component {
       const data = convert.xml2js(res.data, {compact: true}).GoodreadsResponse.search;
       console.log(data);
       
-      this.setState({booksData: data, currentPageBooks: data.results.work ? data.results.work[0] : {}});
+      this.setState({booksData: data, activePage: 1, currentPageBooks: data.results.work ? data.results.work[0] : {}});
     });
   }
 
